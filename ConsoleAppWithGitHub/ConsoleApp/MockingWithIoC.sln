@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockingWithIoC", "ConsoleApp\MockingWithIoC.csproj", "{59A246DB-C146-4E1A-BE3B-B65785DB6FD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockingWithIoC.UnitTest", "MockingWithIoC.UnitTest\MockingWithIoC.UnitTest.csproj", "{6ED6086E-A67F-4683-A330-510532A20035}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectLibrary", "TestProjectLibrary\TestProjectLibrary.csproj", "{3D74F2DB-61B0-4BE3-A4F8-9614D1F96ECF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test_initialize_and_test_setup", "test_initialize_and_test_setup", "{FBFC8775-F7E4-484E-B897-BDC19978ADAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectLibrary.Test", "TestProjectLibrary.Test\TestProjectLibrary.Test.csproj", "{AE35CA5F-3042-406F-B828-14CD0492177B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mocking_With_IoC", "Mocking_With_IoC", "{7B5CD949-6617-4660-AA51-12A6F6A33298}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59A246DB-C146-4E1A-BE3B-B65785DB6FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A246DB-C146-4E1A-BE3B-B65785DB6FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A246DB-C146-4E1A-BE3B-B65785DB6FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A246DB-C146-4E1A-BE3B-B65785DB6FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED6086E-A67F-4683-A330-510532A20035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED6086E-A67F-4683-A330-510532A20035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED6086E-A67F-4683-A330-510532A20035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED6086E-A67F-4683-A330-510532A20035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D74F2DB-61B0-4BE3-A4F8-9614D1F96ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D74F2DB-61B0-4BE3-A4F8-9614D1F96ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D74F2DB-61B0-4BE3-A4F8-9614D1F96ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D74F2DB-61B0-4BE3-A4F8-9614D1F96ECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE35CA5F-3042-406F-B828-14CD0492177B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE35CA5F-3042-406F-B828-14CD0492177B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE35CA5F-3042-406F-B828-14CD0492177B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE35CA5F-3042-406F-B828-14CD0492177B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59A246DB-C146-4E1A-BE3B-B65785DB6FD5} = {7B5CD949-6617-4660-AA51-12A6F6A33298}
+		{6ED6086E-A67F-4683-A330-510532A20035} = {7B5CD949-6617-4660-AA51-12A6F6A33298}
+		{3D74F2DB-61B0-4BE3-A4F8-9614D1F96ECF} = {FBFC8775-F7E4-484E-B897-BDC19978ADAB}
+		{AE35CA5F-3042-406F-B828-14CD0492177B} = {FBFC8775-F7E4-484E-B897-BDC19978ADAB}
+	EndGlobalSection
+EndGlobal
