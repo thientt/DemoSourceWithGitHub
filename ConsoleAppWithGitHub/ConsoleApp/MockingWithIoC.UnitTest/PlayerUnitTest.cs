@@ -1,7 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MockingWithIoC;
 using Moq;
-using System;
 
 namespace MockingWithIoC.UnitTest
 {
