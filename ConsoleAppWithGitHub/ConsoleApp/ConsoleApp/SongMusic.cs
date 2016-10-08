@@ -10,12 +10,7 @@
 
         public bool Play()
         {
-            if (_play.Add())
-            {
-                var result = _play.Play();
-                return result;
-            }
-            return false;
+            return (_play.Add() && _play.Play());
         }
     }
 }
