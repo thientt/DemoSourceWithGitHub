@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectLibrary.Test", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mocking_With_IoC", "Mocking_With_IoC", "{7B5CD949-6617-4660-AA51-12A6F6A33298}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{C14825F8-4644-4E6E-91F7-F9D676F937C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{AE35CA5F-3042-406F-B828-14CD0492177B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE35CA5F-3042-406F-B828-14CD0492177B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE35CA5F-3042-406F-B828-14CD0492177B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14825F8-4644-4E6E-91F7-F9D676F937C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14825F8-4644-4E6E-91F7-F9D676F937C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14825F8-4644-4E6E-91F7-F9D676F937C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14825F8-4644-4E6E-91F7-F9D676F937C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
