@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using Utility;
-using System.Globalization;
 
 namespace MockingWithIoC
 {
@@ -12,22 +8,10 @@ namespace MockingWithIoC
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Show App");
-            Console.WriteLine("Show App");
+            String jsonConvert = CreateStates().SerializeStringSafe();
 
-            //String jsonConvert = CreateStates().SerializeStringSafe();
-
-            //string jsonStr = CreateStateJsonString();
-            //var persons = jsonStr.DeserializeArraySafe<Person>();
-            CultureInfo currInfo = CultureInfo.CurrentCulture;
-            DateTime now = DateTime.Now;
-            Console.WriteLine(now.ToString());
-            CultureInfo info = CultureInfo.GetCultureInfo("vi-VN");
-            CultureInfo.DefaultThreadCurrentCulture = info;
-            CultureInfo.DefaultThreadCurrentUICulture = info;
-            CultureInfo infoJP = CultureInfo.GetCultureInfo(1041);
-            Console.WriteLine(infoJP.TextInfo.ANSICodePage.ToString());
-            Console.WriteLine(now.ToString(infoJP));
+            string jsonStr = CreateStateJsonString();
+            var persons = jsonStr.DeserializeArraySafe<Person>();
             Console.ReadKey();
         }
 

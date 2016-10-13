@@ -3,6 +3,7 @@
     public class SongMusic : ISongMusic
     {
         private readonly IPlayer _play;
+
         public SongMusic(IPlayer play)
         {
             _play = play;
